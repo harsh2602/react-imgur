@@ -7,7 +7,7 @@ module.exports = window.api = {
     return fetch(rootUrl + url,{
       //defining configuration options
       headers: {
-        //'Authorization': 'Client-ID ' + apiKey
+        'Authorization': 'Client-ID ' + apiKey
       }
     })
     .then(function(response){ //promises
